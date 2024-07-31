@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"context"
+	"os"
+
+	"github.com/utilyre/barfe-nou/components"
+)
 
 func main() {
-	fmt.Println("hello world")
+	component := components.Hello("world")
+	component.Render(context.TODO(), os.Stdout)
 }
