@@ -1,0 +1,5 @@
+-sr '\.(html|css)$' -G 'public/index.css' \
+	-- pnpx tailwindcss -i index.css -o public/index.css
+
+-sr '\.(go|mod|sum|html|css|js)$' \
+	-- go run ./cmd/server
