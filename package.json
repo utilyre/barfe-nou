@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "reflex -d fancy -c dev.reflex"
+    "dev": "reflex -d fancy -c dev.reflex",
+    "fmt": "prettier -w ."
   },
   "keywords": [],
   "author": "",
