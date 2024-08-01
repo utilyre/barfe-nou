@@ -1,5 +1,8 @@
 /node_modules
 /public/index.css
 /atlas.hcl
-/internal/queries
-*_templ.go
+
+/internal/queries/db.go
+/internal/queries/models.go
+/internal/queries/*.sql.go
+/internal/components/*_templ.go

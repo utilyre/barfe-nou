@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/utilyre/barfe-nou/components"
+	"github.com/utilyre/barfe-nou/internal/components"
 )
 
 func main() {
