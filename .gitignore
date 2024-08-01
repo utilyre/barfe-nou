@@ -1,4 +1,5 @@
 /node_modules
 /public/index.css
 /atlas.hcl
+/internal/queries
 *_templ.go

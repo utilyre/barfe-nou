@@ -4,5 +4,8 @@
 -sr '\.templ$' \
 	-- templ generate
 
+-sr '\.(hcl|sql)$' \
+	-- sqlc generate
+
 -sr '\.(go|mod|sum|html|css|js)$' \
 	-- go run ./cmd/server
